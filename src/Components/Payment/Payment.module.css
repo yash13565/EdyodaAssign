@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.para1 {
+    background: #0096FF;
+    color: #FFFFFF;
+    width: 1rem;
+    height: 1rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.payment {
+    height: 37rem;
+    width: 23rem;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 72%;
+    font-family: "Roboto";
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    gap: 2rem;
+    align-items: center;
+}
+
+.signup,
+.subscribe {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.top {
+    display: flex;
+    gap: 3rem;
+    /* justify-content: space-between; */
+}
+
+.icon {
+    width: 38px;
+    height: 38px;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    background: #0096FF;
+    border-radius: 100%;
+
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.planBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    isolation: isolate;
+    gap: 4px;
+    font-size: 12px;
+    width: 301px;
+    height: 25px;
+    background: #E7E7E7;
+    border: 2px solid #BEBEBE;
+    border-radius: 4px;
+}
+.pricing{
+    display: flex;
+    flex:1;
+    justify-content: end;
+}
+.checkbox{
+    display: flex;
+    gap:5px
+}
