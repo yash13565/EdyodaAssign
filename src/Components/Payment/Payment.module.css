@@ -10,7 +10,7 @@
 }
 
 .payment {
-    height: 37rem;
+    height: 39rem;
     width: 23rem;
     background-color: white;
     position: absolute;
@@ -21,13 +21,13 @@
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
 }
 
 .signup,
 .subscribe {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,14 +36,15 @@
 
 .top {
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
+
     /* justify-content: space-between; */
 }
 
 .icon {
-    width: 38px;
-    height: 38px;
-    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    font-size: 24px;
     text-align: center;
     color: white;
     background: #0096FF;
@@ -55,28 +56,120 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
 }
 
 .planBlock {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 16px;
-    isolation: isolate;
+    padding: 10px;
+    /* box-sizing:border-box; */
+    /* isolation: isolate; */
     gap: 4px;
-    font-size: 12px;
-    width: 301px;
-    height: 25px;
+    font-size: 11px;
+    width: 311px;
+    height: 15px;
     background: #E7E7E7;
     border: 2px solid #BEBEBE;
     border-radius: 4px;
+    flex: 1;
 }
-.pricing{
-    display: flex;
-    flex:1;
-    justify-content: end;
+.selectedPlan{
+    background-color:  #D7EDDD;
 }
-.checkbox{
+.subscribeBlock {
     display: flex;
-    gap:5px
+    flex-direction: row;
+    padding: 10px;
+    /* isolation: isolate; */
+    gap: 4.6rem;
+    font-size: 11px;
+    width: 311px;
+    height: 20px;
+    background-image: linear-gradient(135deg, #DE4313 0%, #DE4313 0.75%, #DE4313 2.92%, #DE4414 6.37%, #DF4515 10.97%, #DF4816 16.59%, #E04B18 23.1%, #E1501B 30.37%, #E3561F 38.27%, #E55E24 46.66%, #E7682B 55.41%, #EB7533 64.39%, #EE843C 73.47%, #F39547 82.52%, #F8A954 91.41%, #FEC163 100%);
+    border: 2px solid linear-gradient(135deg, #DE4313 0%, #DE4313 0.75%, #DE4313 2.92%, #DE4414 6.37%, #DF4515 10.97%, #DF4816 16.59%, #E04B18 23.1%, #E1501B 30.37%, #E3561F 38.27%, #E55E24 46.66%, #E7682B 55.41%, #EB7533 64.39%, #EE843C 73.47%, #F39547 82.52%, #F8A954 91.41%, #FEC163 100%);
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.planBlock:focus {
+    background: #D7EDDD;
+}
+
+.pricing {
+    display: flex;
+    flex: 1;
+    font-size: 10px;
+    margin-left: 6rem;
+    justify-content: flex-end;
+    /* gap:.6rem; */
+    flex-direction: column;
+}
+
+.monthly {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.total {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.checkbox {
+    display: flex;
+    gap: 5px
+}
+
+.sub {
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    font-size: 11px;
+    padding: 0 16px 0 16px;
+}
+
+.para {
+    font-weight: bolder;
+}
+
+.rIcon {
+    display: flex;
+    align-items: center;
+
+}
+
+.btnDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.cancel {
+    height: 2rem;
+    width: 10.2rem;
+    background: none;
+    border: 1px solid red;
+    color: red;
+    border-radius: 4px;
+}
+
+.proceed {
+    height: 2rem;
+    width: 10.2rem;
+    background: #47BA68;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.limited {
+    display: flex;
+    flex-direction: column;
+
 }

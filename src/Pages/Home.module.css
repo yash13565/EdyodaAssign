@@ -38,7 +38,7 @@ li{
 .mainlist{
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: .8rem;
 }
 .icons{
     margin-right: 2.5rem;
